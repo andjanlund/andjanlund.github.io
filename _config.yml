@@ -1,2 +1,4 @@
 name: Andrea Lund, PhD candidate
 marketdown: kramdown
+
+theme: jekyll-theme-minimal
