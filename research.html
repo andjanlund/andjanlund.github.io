@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Andrea J. Lund, PhD MPH</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">About me</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/andrea-lund-phd-mph-51339237/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/andjanlund">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/andjanlund">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<div id="agricultural-livelihoods-and-schistosome-exposure"
+class="section level2">
+<h2>Agricultural livelihoods and schistosome exposure</h2>
+<p>For my dissertation research, I worked closely with collaborators at
+the Centre de Recherche Biomedical – Espoir Pour La Sante, University of
+California – Santa Barbara and Stanford University to understand how
+rural and agricultural livelihoods contribute to exposure to schistosome
+parasites through a variety of water contact activities. I have used
+household surveys to quantify the relationship between agricultural
+livelihoods and schistosome infection and combined household survey data
+with ecological and interview data to understand the relative
+contributions of social and environmental factors to schistosome risk. I
+have also used qualitative data derived from focus groups to understand
+local perspectives of disease and the environment and the experience of
+living in the dammed and endemic landscape along the Senegal River.
+Future work in this area will focus on how seasonality influences water
+contact behavior, how livestock ownership influences human infection
+risk and assessing the spatial relationships between water sources and
+human activity space.</p>
+<p><img src="IMG_1824.JPG" /></p>
+<div id="relevant-publications" class="section level3">
+<h3>Relevant publications</h3>
+<ul>
+<li><strong>Lund AJ</strong>, Sokolow SH, Jones IJ, Wood CL, Ali S,
+Chamberlin A, Sy AB, Sam MM, Jouanard N, Schacht AM, Senghor S, Fall A,
+Ndione R, Riveau G, De Leo GA, Lopez-Carr D. Exposure, hazard and
+vulnerability all contribute to Schistosoma haematobium re-infection in
+northern Senegal. <em>PLOS Neglected Tropical Diseases</em> 15(10):
+e0009806.</li>
+<li><strong>Lund AJ</strong>, Rehkopf DH, Sokolow SH, Sam MM, Jouanard
+N, Schacht AM, Senghor S, Fall A, Riveau G, De Leo GA, Lopez-Carr D
+2021. Land use impacts on parasitic infection: a cross-sectional
+epidemiological study on the role of irrigated agriculture in
+schistosome infection in a dammed landscape in West Africa.
+<em>Infectious Diseases of Poverty</em> 10:35.</li>
+<li><strong>Lund AJ</strong>, Sam MM, Sy AB, Sow OW, Ali S, Sokolow SH,
+Bereknyei Merrell S, Bruce J, Jouanard N, Senghor S, Riveau G,
+Lopez-Carr D, De Leo GA. 2019. Unavoidable risks: Local perspectives on
+water contact behavior and implications for schistosomiasis control in
+an agricultural region of northern Senegal. <em>American Journal of
+Tropical Medicine and Hygiene</em> 101(4): 837-847.</li>
+<li>Haggerty C, Delius B, Jouanard N, Nado P, De Leo G, <strong>Lund
+A</strong>, Lopez-Carr D, Remais J, Riveau G, Sokolow S, Rohr J.
+Identifying low risk insecticides to address both food shortages and the
+biocontrol of human schistosomiasis. [Pre-print]</li>
+</ul>
+</div>
+</div>
+<div id="mitigating-disease-around-dams" class="section level2">
+<h2>Mitigating disease around dams</h2>
+<p>My dissertation research on human livelihoods and schistosomiasis was
+embedded within a larger project that aimed to implement and evaluate an
+ecological intervention to control schistosomiasis. Our field sites in
+the lower basin of the Senegal River suffer a high burden of
+schistosomiasis in part because of a dam constructed in the 1980s. Dams
+create an ideal habitat for the snails that transmit schistosomiasis:
+stabilizing water levels, preventing saltwater intrusion and
+importantly, disrupting the populations of snail predators. Some of
+these predators – freshwater prawns – migrate downriver to estuaries to
+reproduce. When dams block this migration, prawns disappear from
+upstream reaches of the river and leave snail populations to grow
+unchecked.</p>
+<p>Our research shows that almost half of the 800 million people at risk
+for schistosomiasis globally are at increased risk because dams block
+the migration of snail predators. Along the Senegal River, my
+qualitative research showed that people view the dam as beneficial. It
+improves both food and economic security, but people also recognized
+that these benefits come at a cost. Most people recognize that the
+tell-tale signs of schistosomiasis have become common among themselves
+and their children. Modeling analyses indicate that prawn aquaculture
+can sustainably improve food production, reduce schistosome transmission
+and increase revenues for small-scale subsistence agriculture.</p>
+<p>Since 2017, I have also co-led work that explores the potential for
+other ways to mitigate disease around dams. With an interdisciplinary
+team of graduate students supported by the National Socio-Environmental
+Synthesis Center (SESYNC), our team examined how environmental planning
+in the Senegal River Basin overlooked the health impacts of dam
+development. We analyzed documents from the river basin authority’s
+archive to understand how health impacts were framed and prioritized
+with respect to the traditional objectives of dam development: food,
+energy, and water resources. By comparing this framing and
+prioritization across policy, impact assessment and operational
+documents, we examined whether and how management policies are put into
+practice. We found that health impacts of dam development were important
+effects to be mitigated, but proposals to manage dams for disease
+control have so far not been adopted in practice.</p>
+<p>Future work in this area will include empirical analysis of the
+impact of prawn aquaculture on snail populations and human infection
+with schistosomes, collaborative efforts to use hydrological modeling
+and demonstrate the feasibility of dam management for disease control
+and eventually field studies to understand the impact of dam management
+schemes on snail and mosquito ecology as well as human infection
+risk.</p>
+<p><img src="IMG_8815.jpg" /></p>
+<div id="relevant-publications-1" class="section level3">
+<h3>Relevant publications</h3>
+<ul>
+<li><strong>Lund AJ</strong>, Harrington ES, Albrecht TR, Hora T, Wall
+RE, Andarge T. 2022.Tracing the inclusion of health as a component of
+the food-energy-water nexus in dam management in the Senegal River
+Basin. <em>Environmental Science &amp; Policy</em> 133:74-86</li>
+<li>Sokolow SH, Jones IJ, Jocque M, La D, Cords O, Knight A,
+<strong>Lund A</strong>, Wood CL, Lafferty KD, Kuris AM, Hoover CM,
+Collender PA, Remais J, Lopez-Carr D, Fisk J, De Leo GA. 2017. Nearly
+400 million people are at higher risk of schistosomiasis because dams
+block the migration of snail-eating river prawns. <em>Philosophical
+Transactions of the Royal Society B</em>. 372(1722): 20160127.</li>
+<li><strong>Lund AJ</strong>, Lopez-Carr D, Sokolow SH, Rohr JR, De Leo
+GA. 2021 Agricultural innovations to reduce the health impacts of dams.
+<em>Sustainability</em> 13:1869</li>
+<li>Hoover CM, Sokolow SH, Kemp J, Sanchirico JN, <strong>Lund
+AJ</strong>, Jones I, Higginson T, Riveau G, Savaya-Alkalay A, Coyle S,
+Wood CL, Micheli F, Casagrandi R, Mari L, Gatto M, Rinaldo A, Perez-Saez
+J, Rohr JR, Sagi A, Remais JV, De Leo GA. 2019. Modelled effects of
+prawn aquaculture on poverty alleviation and schistosomiasis control.
+<em>Nature Sustainability</em> 2(7): 611-620.</li>
+</ul>
+</div>
+</div>
+<div id="spatial-ecology-of-schistosome-transmission"
+class="section level2">
+<h2>Spatial ecology of schistosome transmission</h2>
+<p>In collaboration with colleagues at Stanford University, University
+of Washington and Centre de Recherche Biomedical – Espoir Pour La Sante,
+I contributed to research on the spatial ecology of schistosome
+transmission along the lower basin of the Senegal River. This work
+involved the use of light unmanned aerial vehicles (UAVs, or drones) to
+identify and sample aquatic microhabitats for the snails that transmit
+schistosome parasites. We found that snail populations vary so much in
+space and time that snapshots captured through snail sampling (which
+involved hundreds of person-hours per site!) did not generate a complete
+picture of the risk that local people face when using these water
+sources. In fact, environmental proxies within a water access site (such
+as the area covered by suitable snail habitat) were better at predicting
+human infection with <em>S. haematobium</em> than snail population data.
+We concluded that using drones and satellite imagery to quickly estimate
+the geometry and snail habitat coverage of water contact sites is a
+useful tool for surveillance and control of schistosomiasis.</p>
+<p>Building on our conclusion that the area of snail habitat within a
+water access site was a good proxy of human infection, I led work that
+integrated ecological data with household survey and interview data to
+understand the relative contributions of social and environmental
+factors to risk of infection with <em>S. haematobium</em>. We found that
+the area of snail habitat (or, hazard) was the most important component
+of becoming infected, compared to water contact behavior (exposure) and
+access to water and sanitation infrastructure (vulnerability). When
+considering the intensity of <em>S. haematobium</em> infection, water
+contact behavior was most important. We also found that accounting for
+the spatial relationship between households and water access sites often
+improved the fit of our statistical models compared to previously
+published village-level aggregations of ecological data.</p>
+<p>Future work in this area will involve further integration of social,
+ecological, and spatial data to understand how human interactions with
+the environment intersect with the parasites circulating through snail
+populations in water sources.</p>
+<p><img src="DJI_0029.JPG" /></p>
+<div id="relevant-publications-2" class="section level3">
+<h3>Relevant publications</h3>
+<ul>
+<li>Jones IJ, Sokolow SH, Chamberlin AJ, <strong>Lund AJ</strong>,
+Jouanard N, Bandagny L, Ndione R, Senghor S, Schacht AM, Riveau G,
+Hopkins SR, Rohr JR, Remais JV, Lafferty KD, Kuris AM, Wood CL, De Leo
+GA. Schistosome infection in Senegal is associated with different
+spatial extents of risk and ecological drivers for Schistosoma
+haematobium and S. mansoni. <em>PLOS Neglected Tropical Diseases</em>
+15(9): e0009712</li>
+<li>Wood CL, Sokolow SH, Jones IJ, Chamberlin AJ, Lafferty KD, Kuris AM,
+Jocque M, Hopkins SR, Adams G, Schneider M, Buck JC, <strong>Lund
+AJ</strong>, Garcia-Vedrenne AE, Fiorenza E, Rohr JR, Allan F, Webster
+BL, Rabone M, Webster JP, Bandagny L, Ndione R, Senghor S, Schacht AM,
+Jouanard N, Riveau G, De Leo GA. 2019. Precision mapping of snail
+habitats provides a powerful indicator of human schistosomiasis
+transmission. <em>Proceedings of the National Academy of Sciences</em>
+116(46): 23182-23191.</li>
+<li>Chamberlin AJ, Jones IJ, <strong>Lund AJ</strong>, Jouanard N,
+Riveau G, Ndione R, Sokolow SH, Wood CL, Lafferty KD, De Leo GA 2020.
+Visualization of schistosomiasis snail habitat using light unmanned
+aerial vehicles. <em>Geospatial Health</em> 15(2):818.</li>
+</ul>
+</div>
+</div>
+<div id="ecological-levers-for-health" class="section level2">
+<h2>Ecological levers for health</h2>
+<p>Our working group focused on identifying links between infectious
+disease transmission and environmental change with the goal of
+synthesizing knowledge on win-win solutions that can benefit people and
+nature. We developed a framework for distinguishing win-win solutions
+from other possible outcomes and developed case studies detailing dozens
+of proposed solutions that we uncovered through a systematic review of
+the literature.</p>
+<p>As part of this group, I also contributed to an evaluation of the
+impact of establishing a health clinic near a national park in
+Indonesian Borneo as a means of keeping people healthy and reducing
+incentives to engage in illegal logging to pay for catastrophic health
+expenses. The clinic, which was co-created by the NGOs Alam Sehat
+Lestari and Health in Harmony and the local communities around Gunung
+Palung National Park, served thousands of people and reduced
+deforestation by 70% compared to control sites.</p>
+<p><img src="gr3.jpg" /></p>
+<div id="relevant-publications-3" class="section level3">
+<h3>Relevant publications</h3>
+<ul>
+<li>Hopkins SR, Lafferty KD, Wood CL, Olson SH, Buck JC, Childs M, De
+Leo GA, Fiorella KJ, Fornberg J, Garchitorena A, Howard ME, Jones IJ,
+Kuris AM, Kwong LH, LeBoa C, Leon AE, <strong>Lund AJ</strong>,
+MacDonald AJ, Metz DCG, Nova N, Peel AJ, Remais JV, Stewart Merrill TE,
+Wilson M, Bonds MH, Dobson AP, Lopez-Carr D, Mandle L, Sokolow SH.
+Diversity and evidence gaps among potential win-win solutions for
+conservation and human infectious disease control. <em>Lancet Planetary
+Health</em> 6(8): E694-E805</li>
+<li>Hopkins S, Sokolow S, De Leo G, Buck J, Jones I, Kwong L, LeBoa C,
+<strong>Lund AJ</strong>, MacDonald A, Nova N, Olson S, Peel A, Wood C,
+Lafferty K. 2020. Identifying win-wins for people and nature. <em>Nature
+Sustainability</em> 4: 298-304.</li>
+<li>Hopkins SR, Jones IJ, Buck JC, LeBoa C, Kwong LH, Jacobsen K,
+Rickards C, <strong>Lund AJ</strong>, Nova N, MacDonald AJ, Lambert-Peck
+M, De Leo GA, Sokolow SH 2022. Environmental persistence of the world’s
+most burdensome infectious and parasitic diseases. <em>Frontiers in
+Public Health</em> 10:892366</li>
+<li>Jones IJ, MacDonald AJ, Hopkins S, <strong>Lund AJ</strong>, Liu ZY,
+Fawsi NI, Purba MP, Fankhauser K, Chamberlin AJ, Nirmala M, Blundell AG,
+Emerson A, Jennings J, Gaffikin L, Barry M, Lopez-Carr D, Webb K, De Leo
+GA, Sokolow SH. 2020. Improving rural health care reduces illegal
+logging and conserves carbon in a tropical forest. <em>Proceedings of
+the National Academy of Sciences</em> 117(45): 28515-28524</li>
+<li>Garchitorena A, Sokolow SH, Roche B, Ngonghala CN, Jocque M,
+<strong>Lund A</strong>, Barry M, Mordecai EA, Daily GC, Jones JH,
+Andrews JR, Bendavid E, Luby SP, LaBeaud AD, Seetah K, Guegan JR, Bonds
+MH, De Leo GA. 2017. Disease ecology health and the environment: a
+framework to account for ecological and socio-economic drivers in the
+control of neglected tropical disease. <em>Philosophical Transactions of
+the Royal Society B</em>. 372(1722)</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

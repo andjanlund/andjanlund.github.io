@@ -1,0 +1,24 @@
+name: "andreas-website"
+output_dir: "."
+output:
+  html_document:
+    theme: bootstrap
+    css: style.css
+navbar:
+  title: "Andrea J. Lund, PhD MPH"
+  left: 
+  - text: "About me"
+    href: about.html
+  - text: "Research"
+    href: research.html
+  - text: "CV"
+    href: cv.html
+  right: 
+  - icon: fa-linkedin
+    href: https://www.linkedin.com/in/andrea-lund-phd-mph-51339237/
+  - icon: fa-twitter
+    href: https://twitter.com/andjanlund
+  - icon: fa-github
+    href: https://github.com/andjanlund
+    
+  
