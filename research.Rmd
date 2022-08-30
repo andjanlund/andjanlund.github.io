@@ -9,7 +9,7 @@ output:
 Recent advances in sequencing technologies make it increasingly feasible to generate genome-scale data on parasites like schistosomes for use in population-based research and surveillance. In collaboration with the Sichuan Center for Disease Control and Prevention and scientists at the University of Colorado and the University of Texas who have developed an efficient method for sequencing genomes from schistosome miracidia collected in the field, we are using relatedness between parasites to understand why and how S. japonicum persists in residual hot spots of infection in southwest China. 
 
 ### Relevant publication
-- **Lund AJ**, Wade KJ, Nikolakis ZL, Ivey K, Perry BW, Pike H, Paull SH, Liu Y, Castoe TA, Pollock DD, Carlton EJ. Integrating genomic and epidemiologic data to accelerate progress towards schistosomiasis elimination. [Pre-print](https://doi.org/10.31219/osf.io/rt8wn)
+- **Lund AJ**, Wade KJ, Nikolakis ZL, Ivey K, Perry BW, Pike H, Paull SH, Liu Y, Castoe TA, Pollock DD, Carlton EJ. Integrating genomic and epidemiologic data to accelerate progress towards schistosomiasis elimination. *eLife* 11:e79320 [Open access](https://doi.org/10.7554/eLife.79320)
 
 ## Agricultural livelihoods and schistosome exposure
 
